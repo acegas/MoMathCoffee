@@ -249,28 +249,6 @@ summary:focus-visible {
 .card-feature p { color: #f6dfe5; }
 .card-feature .button { margin-top: 0.25rem; }
 
-.latest {
-  margin: 2.5rem 0 0;
-  padding: 0.85rem 1rem;
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  font-size: 0.9rem;
-}
-
-.tag {
-  display: inline-block;
-  margin-right: 0.5rem;
-  padding: 0.1rem 0.5rem;
-  border-radius: 4px;
-  background: var(--color-tag);
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 /* Dark machine section */
 .section-dark {
   background: var(--color-dark);
