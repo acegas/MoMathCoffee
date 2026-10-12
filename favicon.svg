@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#26221b"/>
+  <!-- steam shaped like an integral sign -->
+  <path d="M37 7 C33 3 29 6 29 12 L29 25 C29 31 25 34 21 30" fill="none" stroke="#f5f0e6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- cup -->
+  <path d="M13 35 H45 V44 C45 51 40 56 33 56 H25 C18 56 13 51 13 44 Z" fill="#d4961a"/>
+  <path d="M45 38 H48 C54 38 54 49 46 49" fill="none" stroke="#d4961a" stroke-width="4" stroke-linecap="round"/>
+  <rect x="9" y="58" width="40" height="3" rx="1.5" fill="#d4961a"/>
+</svg>
