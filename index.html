@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MoMath Coffee Station</title>
   <meta name="description" content="Good coffee, kept running by all of us. Chip in to the MoMath coffee fund and learn how to use the machine.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,7 +27,18 @@
       <p class="eyebrow">MoMath · Shared coffee station</p>
       <h1>Good coffee, kept running by all of us.</h1>
       <p class="lead">This coffee station is team-funded and team-managed — no office budget, no barista. Keeping it going takes one small thing from everyone: chipping in when you can.</p>
-      <a class="button" href="https://www.paypal.com/pool/9qbLBqmO3Y?sr=wccr" rel="noopener">Chip in to the fund →</a>
+      <div class="actions">
+        <a class="action action-gold" href="https://www.paypal.com/pool/9qbLBqmO3Y?sr=wccr" rel="noopener">
+          <span class="action-label">Action 01 · Equally important</span>
+          <strong>Chip in to the fund →</strong>
+          <span>Keep beans &amp; filters stocked.</span>
+        </a>
+        <a class="action action-navy" href="#machine">
+          <span class="action-label">Action 02 · Good to know</span>
+          <strong>See how to brew →</strong>
+          <span>Quick steps for the machine.</span>
+        </a>
+      </div>
       <ul class="trio">
         <li><span class="num">01</span><strong>Use it</strong><span>Brew a cup whenever you like — it's here for everyone.</span></li>
         <li><span class="num">02</span><strong>Chip in</strong><span>Contributions keep beans and filters stocked.</span></li>
@@ -36,22 +50,25 @@
     <section id="fund" class="section">
       <div class="container">
         <p class="kicker">01 — Coffee fund</p>
-        <h2>Pay-what-you-drink, into one shared pot.</h2>
-        <p>Beans, filters, milk, and the occasional repair all come out of one shared fund. Contributions are voluntary and there's no set amount — chip in whatever matches how much you drink. The more of us who pitch in, the more reliably there's a fresh pot waiting.</p>
-        <p class="muted">Purchases get a quick note in <strong>#coffee</strong> on Slack, so everyone can see where the money goes.</p>
-
-        <div class="card card-feature">
-          <p class="kicker">Current balance</p>
-          <h3>Always live on PayPal</h3>
-          <p>We keep the PayPal Pool page as the single source of truth — that's the one number to trust, no second figure to second-guess.</p>
-          <a class="button" href="https://www.paypal.com/pool/9qbLBqmO3Y?sr=wccr" rel="noopener">Open the PayPal Pool →</a>
+        <div class="split">
+          <div>
+          <h2>Pay-what-you-drink, into one shared pot.</h2>
+          <p>Beans, filters, milk, and the occasional repair all come out of one shared fund. Contributions are voluntary and there's no set amount — chip in whatever matches how much you drink. The more of us who pitch in, the more reliably there's a fresh pot waiting.</p>
+          <p class="muted">Purchases get a quick note in <strong>#coffee</strong> on Slack, so everyone can see where the money goes.</p>
+          </div>
+          <div class="card card-feature">
+            <p class="kicker">Current balance</p>
+            <h3>Always live on PayPal</h3>
+            <p>We keep the PayPal Pool page as the single source of truth — that's the one number to trust, no second figure to second-guess.</p>
+            <a class="button" href="https://www.paypal.com/pool/9qbLBqmO3Y?sr=wccr" rel="noopener">Open the PayPal Pool →</a>
+          </div>
         </div>
 
         <p class="latest"><span class="tag">Latest</span> Restocked 2 lb of the house blend and a fresh box of filters — posted in <strong>#coffee</strong>.</p>
       </div>
     </section>
 
-    <section id="machine" class="section section-alt">
+    <section id="machine" class="section section-dark">
       <div class="container">
         <p class="kicker">02 — Using the machine</p>
         <h2>Brew it, enjoy it.</h2>
@@ -74,7 +91,7 @@
             <p>Press START. A full pot takes about 6 minutes.</p>
           </li>
         </ol>
-        <p class="card"><strong>Running low?</strong> Beans, filters, and milk live in the cabinet above the machine. If a tin is down to the last scoop, grab a backup from the storage closet — or post in <strong>#coffee</strong> so someone on a supply run can restock.</p>
+        <p class="card card-dark"><strong>Running low?</strong> Beans, filters, and milk live in the cabinet above the machine. If a tin is down to the last scoop, grab a backup from the storage closet — or post in <strong>#coffee</strong> so someone on a supply run can restock.</p>
       </div>
     </section>
 
